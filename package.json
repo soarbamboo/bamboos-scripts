@@ -1,6 +1,6 @@
 {
   "name": "bamboos-scripts",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "spport react project to dev start or build",
   "main": "index.js",
   "bin": {
