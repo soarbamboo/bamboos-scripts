@@ -1,5 +1,4 @@
 const path = require('path');
-const isDev = process.env.NODE_ENV !== 'production';
 const PROJECT_PATH = path.resolve(__dirname, '../');
 const PROJECT_NAME = path.parse(PROJECT_PATH).name;
 const SERVER_HOST = 'localhost';
@@ -23,7 +22,6 @@ module.exports = {
   PROJECT_NAME,
   SERVER_HOST,
   SERVER_PORT,
-  isDev,
   shouldShowAnaly,
   commonConfig,
   prodCustomerConfig: prodCustomerConfig(),

@@ -1,5 +1,5 @@
 const { resolve } = require('path');
-const { isDev } = require('./common');
+const isDev = process.env.NODE_ENV !== 'production' || true;
 const PROJECT_PATH = process.cwd();
 const HtmlWebpackPlugin = require('html-webpack-plugin');
 const CopyPlugin = require('copy-webpack-plugin');
