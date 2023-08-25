@@ -5,7 +5,7 @@ const SERVER_HOST = 'localhost';
 const SERVER_PORT = process.env.PORT ? process.env.PORT : 9090;
 const shouldShowAnaly = false;
 const commonConfig = require('./webpack.common.js');
-const prodCustomerConfig = () => {
+const customerConfig = () => {
   if (process.env.CONFIG_PATH) {
     const customerCongifPath = path.resolve(
       process.cwd(),
@@ -24,5 +24,5 @@ module.exports = {
   SERVER_PORT,
   shouldShowAnaly,
   commonConfig,
-  prodCustomerConfig: prodCustomerConfig(),
+  customerConfig: customerConfig(),
 };
