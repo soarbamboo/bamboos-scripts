@@ -1,7 +1,7 @@
 {
   "name": "bamboos-scripts",
   "version": "1.0.0",
-  "description": "",
+  "description": "spport react project to dev start or build",
   "main": "index.js",
   "bin": {
     "bamboos-scripts": "bin/bamboos-scripts.js"
@@ -10,7 +10,9 @@
     "type": "git",
     "url": "git+https://github.com/soarbamboo/bamboos-scripts.git"
   },
-  "keywords": [],
+  "keywords": [
+    "react"
+  ],
   "author": "leo",
   "license": "ISC",
   "bugs": {
